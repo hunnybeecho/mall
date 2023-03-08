@@ -2489,3 +2489,5 @@
 [15:31:48:317] [INFO] - com.neon.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - args : [org.apache.catalina.session.StandardSessionFacade@7eedbc78]
 [15:31:48:319] [INFO] - com.neon.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:46) - return response : {"status":10000,"msg":"SUCCESS","data":null}
 [16:13:14:295] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:788) - mall_datasource - Thread starvation or clock leap detected (housekeeper delta=17m53s784ms215µs700ns).
+[16:27:20:964] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - mall_datasource - Shutdown initiated...
+[16:27:20:982] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - mall_datasource - Shutdown completed.
